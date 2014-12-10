@@ -1,1 +1,1 @@
-=== Honey, hold yer hat!
+Honey, hold yer hat!
