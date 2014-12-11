@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.1.2'
 
-gem 'sinatra'
-gem 'font-awesome-sass'
-gem 'thin'
 gem 'bootstrap'
+gem 'font-awesome-sass'
+gem 'handlebars_assets'
+gem 'sinatra'
+gem 'thin'
