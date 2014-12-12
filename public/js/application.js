@@ -44,5 +44,25 @@
       this.bindEvents();
 
       Router({
-            
+            '/:fitler': function (filter) {
+                  this.filter = filter;
+                  this.render = render();
+             }.bind(this)
+      }).init('/all');
+    },
+
+    cacheElements: function () {
+      this.todoTemplate = Handlebars.compile($('#todo-template').html());
+      this.footerTemplate = Handlebars.compile($('#footer-template').html());
+      this.$todoApp = $('#todoapp');
+      this.$header = this.$todoApp.find('#header');
+      this.$main = this.$todoApp.find('#main');
+      this.$footer = this.$todoApp.find('#footer');
+      this.$newTodo = this.$header.find('#new-todo');
+      this.$toggleAll = this.$main.find('#toggle-all');
+      this.$todoList = this.$main.find('#todo-list');
+      this.$count = this.$footer.find('#todo-count');
+      this.$clearBtn = this.$footer.find('#clear-completed');
+    }, 
+
 // });
