@@ -39,6 +39,10 @@
 
   var App = {
     init = function () {
-      
+      this.todos = util.store('todos-jquery');
+      this.cacheElements();
+      this.bindEvents();
 
+      Router({
+            
 // });
