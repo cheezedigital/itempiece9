@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 </nav>
   <section id="todoapp">
     <header id="header">
@@ -15,4 +15,38 @@
   <footer id="info">
     <p>Double click to edit a todo</p>
     <p>Created by <a href="http://www.justinveirs.me/" target="_blank">Cheezedigital</a></p>
-  </footer>
+  </footer> -->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+</nav>
+<div class="task-list" id="pending">
+  <h3>Pending</h3>
+  <div class="todo-task">
+    <div class="task-header">Holler</div>
+    <div class="task-date">Sample Date</div>
+    <div class="task-description">what to do today</div>
+  </div>
+</div>
+
+<div class="task-list" id="inProgress">
+  <h3>In Progress</h3>
+</div>
+
+<div class="task-lis" id="completed">
+  <h3>Completed</h3>
+</div>
+
+<div class="task-list">
+  <h3>Add a Task</h3>
+  <form id="todo-form">
+    <input type="text" placeholder="Title" />
+    <textarea placeholder="Description"></textarea>
+    <input type="text" placeholder="Due Date (MM/DD/YYYY)" />
+    <input type="button" class="btn btn-primary" value="Add Task" />
+  </form>
+
+  <input type="button" class="btn btn-primary" value="Clear Data" />
+
+  <div id="delete-div">Drag here to delete</div>
+  
+</div>
