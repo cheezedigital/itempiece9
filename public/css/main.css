@@ -37,10 +37,15 @@ div {
     background: -moz-radial-gradient(circle, red 15%, transparent 40%), #cc5;
   }
 }
-.brain {
+.laser {
   animation: blink .5s infinite;
   -webkit-animation: blink .5s infinite;
   -moz-animation: blink .5s infinite;
+}
+.brain {
+  /*animation: blink .5s infinite;
+  -webkit-animation: blink .5s infinite;
+  -moz-animation: blink .5s infinite;*/
   background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
   background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
   background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5;
@@ -72,7 +77,7 @@ div {
   color: #666;
   transform: scaleY(-1) rotate(200deg);
   -webkit-transform: scaleY(-1) rotate(20deg);
-  -moz-transform: scaleY(-1) rotate(20deg);  
+  -moz-transform: scaleY(-1) rotate(20deg);
   position: relative;
   top: -620px;
   left: 190px;
