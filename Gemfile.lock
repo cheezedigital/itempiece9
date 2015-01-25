@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bootstrap (0.0.1)
     daemons (1.1.9)
     eventmachine (1.0.3)
     font-awesome-sass (4.2.2)
@@ -23,6 +24,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap
   font-awesome-sass
   sinatra
   thin
