@@ -5,3 +5,7 @@ gem 'bootstrap'
 gem 'font-awesome-sass'
 gem 'sinatra'
 gem 'thin'
+
+# gem 'rolling_paper'
+# Specify your gem's dependencies in rolling_paper.gemspec
+gemspec
